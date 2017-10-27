@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capella", "Capella\Capella.csproj", "{C0FFDB7E-DDEB-4A2C-90A8-004E5A6B374D}"
 EndProject
@@ -18,6 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp.Client", "TestApp.Client\TestApp.Client.csproj", "{BC9AF1DC-22FC-4C58-B684-5430ECD27089}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capella.Tests", "Capella.Tests\Capella.Tests.csproj", "{1A616F3B-86DA-4F42-AB88-8167FE843D6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capella.CodeGen", "Capella.CodeGen\Capella.CodeGen.csproj", "{8901C4CF-192B-42AA-86F7-D3483C3BDA9E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +55,10 @@ Global
 		{1A616F3B-86DA-4F42-AB88-8167FE843D6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A616F3B-86DA-4F42-AB88-8167FE843D6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A616F3B-86DA-4F42-AB88-8167FE843D6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8901C4CF-192B-42AA-86F7-D3483C3BDA9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8901C4CF-192B-42AA-86F7-D3483C3BDA9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8901C4CF-192B-42AA-86F7-D3483C3BDA9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8901C4CF-192B-42AA-86F7-D3483C3BDA9E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

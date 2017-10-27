@@ -1,0 +1,4 @@
+﻿public System.String ReturnsAString()
+{
+    return (System.String)this.Execute();
+}
